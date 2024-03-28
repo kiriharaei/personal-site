@@ -90,7 +90,7 @@ export default function Uses() {
             多くの場面で利用させてもらっています。
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Development language - Framework">
+        <ToolsSection title="Development">
           <Tool title="Ruby - Ruby on Rails">
             現在メインで使っているフレームワークです。
             本業でも利用しており、使い慣れています。
