@@ -10,14 +10,14 @@ import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
-  {
-    name: 'Planetaria',
+/*   {
+    name: 'Deliverables',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
+      '私の成果物をご紹介していきます。',
     link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoPlanetaria,
-  },
-  {
+  }, */
+/*   {
     name: 'Animaginary',
     description:
       'High performance web animation library, hand-written in optimized WASM.',
@@ -44,7 +44,7 @@ const projects = [
       'The schematics for the first rocket I designed that successfully made it to orbit.',
     link: { href: '#', label: 'github.com' },
     logo: logoOpenShuttle,
-  },
+  }, */
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -59,21 +59,21 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export const metadata: Metadata = {
-  title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  title: 'Deliverables',
+  description: '私の成果物をご紹介していきます。',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="私の成果物をご紹介していきます。"
+      intro="現在、成果物の準備を進めています。準備が整い次第共有させていただきます。"
     >
       <ul
         role="list"
         className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
       >
-        {projects.map((project) => (
+{/*         {projects.map((project) => (
           <Card as="li" key={project.name}>
             <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image
@@ -92,7 +92,7 @@ export default function Projects() {
               <span className="ml-2">{project.link.label}</span>
             </p>
           </Card>
-        ))}
+        ))} */}
       </ul>
     </SimpleLayout>
   )

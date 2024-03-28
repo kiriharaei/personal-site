@@ -35,86 +35,73 @@ function Tool({
 }
 
 export const metadata = {
-  title: 'Uses',
-  description: 'Software I use, gadgets I love, and other things I recommend.',
+  title: '赤木英司のスキル・開発環境',
+  description: '赤木英司の保持しているITスキル・開発環境をご紹介します。',
 }
 
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="赤木英司の保持しているITスキル・開発環境をご紹介します。"
+      intro="アプリケーションを構築したり、生産性を維持・向上させるために何を使っているのかご紹介していきます。さらなる開発効率を向上させていけるよう日々アップデートしています。それに合わせて本ページも順次更新していきます。"
     >
       <div className="space-y-20">
         <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
+          <Tool title="デスクトップPC raytrek XV 11700搭載モデル SSD:">
+            私の愛機です。高パフォーマンスを実現でき、大抵の開発時には不便なく利用することができています。
+            まだHDDの増設等余力があるため今後さらにスペックを上げていく予定です。
           </Tool>
-          <Tool title="Apple Pro Display XDR (Standard Glass)">
-            The only display on the market if you want something HiDPI and
-            bigger than 27”. When you’re working at planetary scale, every pixel
-            you can get counts.
+          <Tool title="グリーンハウス 23.8型ワイドゲーミング液晶ディスプレイ 165Hz 1ms ホワイト GH-ELCG238B-WH">
+            白デスク環境にするため、かつ私個人として一番使いやすい23.8型のディスプレイで開発するため導入しました。
+            目にも優しく長時間ディスプレイを見ていても苦になりません。
           </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
+          <Tool title="CORSAIR K60 PRO TKL RGB ゲーミングキーボード -ホワイト- CH-911D11A-JP">
+            こちらも白デスク環境への一歩のため導入しました。
+            打感も気持ちよく無駄な力なく素早くタイピングをすることができます。
+            華やかなキーボードです。
           </Tool>
-          <Tool title="Apple Magic Trackpad">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
+          <Tool title="Logicool G(ロジクール G) G502 X PLUS LIGHTSPEED ワイヤレス RGB ゲーミングマウス">
+            手首の疲れを感じにくい使い勝手の良いマウスです。
+            ボタン数も13個用意されており、それぞれにキーを割り当て、より早い効率的な開発に貢献してくれています。
           </Tool>
-          <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
+          <Tool title="ODK l字デスク パソコンデスク L字型 ゲーミングデスク">
+            これまでご紹介したアイテムをセッティングしているデスクになります。
+            マルチディスプレイを簡単に組むことができ、小物類の置き場にも困らないつくりになっています。
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+          <Tool title="Visual Studio Code">
+            メインで利用しているエディターです。
+            ほぼすべての開発で利用しています。たまにサクラエディタに浮気しますが
+            使い勝手ナンバーワンです。
           </Tool>
-          <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+          <Tool title="GitHub">
+            git管理にはやはりGitHubを利用しています。
+            様々なサービスと連携することができるため、とても重宝しています。
           </Tool>
-          <Tool title="TablePlus">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+          <Tool title="Slack">
+            自身のメモ書きなどで利用したり、コミュニティへの参加の際に利用しています。
+            遊びはDiscord、開発はSlackの利用で使い分けています。
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
           <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            デザインと言ったらこのFigmaですよね。
+            多くの場面で利用させてもらっています。
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
+        <ToolsSection title="Development language - Framework">
+          <Tool title="Ruby - Ruby on Rails">
+            現在メインで使っているフレームワークです。
+            本業でも利用しており、使い慣れています。
           </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
+          <Tool title="Python - Django">
+            個人開発メインで利用しているフレームワークです。
+            現在はレシピ投稿サイト作成で利用しています。
           </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
-          </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
+          <Tool title="JavaScript - Next.js">
+            フロントエンドはNext.jsをメインで利用しています。
+            Rails、Djangoと併せて利用することが多くこのプロフィールサイトもNext.jsで構築しています。            
           </Tool>
         </ToolsSection>
       </div>
