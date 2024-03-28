@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Eiji Akagi',
     default:
-      'Eiji Akagi - Software designer, founder, and amateur astronaut',
+      'Eiji Akagi - ITエンジニア',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    '東京都内で働く、ITエンジニア。 HRTech/SaaS型の採用・業務管理システムの開発に2019年1月より従事。',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.VERCEL_URL}/feed.xml`,
