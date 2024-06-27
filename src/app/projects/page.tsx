@@ -7,16 +7,16 @@ import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoPigeon from '@/images/logos/pigeon.svg'
 
 const projects = [
-/*   {
-    name: 'Deliverables',
+  {
+    name: 'Pigeon',
     description:
-      '私の成果物をご紹介していきます。',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
-  }, */
+      '海外向けのタスク管理ツールとなります。今後は日本語対応し、様々な機能を盛り込んだDXツールへ拡張していく予定です。',
+    link: { href: 'https://www.pigeon-suite.com/', label: 'pigeon-suite.com' },
+    logo: logoPigeon,
+  },
 /*   {
     name: 'Animaginary',
     description:
@@ -67,13 +67,13 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="私の成果物をご紹介していきます。"
-      intro="現在、成果物の準備を進めています。準備が整い次第共有させていただきます。"
+      intro="個人開発で提供しているサービス一覧です。利用者の皆様に求められるサービスの開発を目指しています。"
     >
       <ul
         role="list"
         className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
       >
-{/*         {projects.map((project) => (
+        {projects.map((project) => (
           <Card as="li" key={project.name}>
             <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image
@@ -92,7 +92,7 @@ export default function Projects() {
               <span className="ml-2">{project.link.label}</span>
             </p>
           </Card>
-        ))} */}
+        ))}
       </ul>
     </SimpleLayout>
   )
