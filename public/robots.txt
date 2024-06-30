@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.akagi-eiji.net/
+
+# Sitemaps
+Sitemap: https://www.akagi-eiji.net/sitemap.xml
