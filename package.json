@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "postbuild": "next-sitemap",
     "lint": "next lint"
   },
   "browserslist": "defaults, not ie <= 11",
@@ -26,6 +27,7 @@
     "fast-glob": "^3.2.11",
     "feed": "^4.2.2",
     "next": "^14.0.4",
+    "next-sitemap": "^4.2.3",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
